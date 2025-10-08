@@ -1,0 +1,68 @@
+
+body {
+    background: #f8fafc;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #3a3a3a;
+}
+
+h1 {
+    color: #8854d0;
+    text-align: left;
+    font-size: 2.2em;
+    margin-bottom: 1em;
+}
+
+#todo-input {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #d1d8e0;
+    width: 180px;
+    margin-right: 0.5em;
+}
+
+#add-button {
+    padding: 0.5em 1em;
+    background: #32ff7e;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#add-button:hover {
+    background: #26de81;
+}
+
+ul#todo-list {
+    margin-top: 1.7em;
+    list-style: none;
+    padding: 0;
+}
+
+ul#todo-list li {
+    background: #fff;
+    padding: 0.7em 1em;
+    margin-bottom: 0.8em;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(136, 84, 208, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul#todo-list li button {
+    background: #fa8231;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.3em 0.8em;
+    font-size: 0.93em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+ul#todo-list li button:hover {
+    background: #eb3b5a;
+}
+

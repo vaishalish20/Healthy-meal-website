@@ -1,5 +1,6 @@
 .main {
     margin-top: 100px;
+    text-align: center;
 }
 
 .image {
@@ -29,8 +30,17 @@
 }
 
 .b1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
     margin-top: 10px;
+
+    font-size: 14px;
+    background: #dfe1e5;
+    border: none;
+    border-radius: 3px;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
+

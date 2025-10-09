@@ -3,7 +3,12 @@ body {
 }
 
 .my-face {
-    display: flex;
-    justify-content: flex-start;
-    margin: 10px;
+    width: 150px;
+}
+
+.card {
+
+    border: 1px dotted blue;
+    padding: 20px;
+
 }

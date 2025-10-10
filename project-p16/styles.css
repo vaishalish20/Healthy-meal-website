@@ -1,0 +1,18 @@
+body {
+    background: whitesmoke;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ad {
+    background: #35654d;
+    border: 5px solid #A3BC71;
+    text-align: center;
+}
+
+.cta {
+    color: #A3BC71;
+    padding: 5px 10px;
+    border: 2px solid #A3BC71;
+    background: #8F4737;
+}

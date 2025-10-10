@@ -25,5 +25,14 @@ body {
 }
 
 .text-cont {
-    margin-top: 156px;
+    margin-top: 46px;
+    /* border: 2px solid white; */
+}
+
+#space-x {
+    width: 100px;
+    /* border: 2px solid white; */
+    padding-left: 20px;
+    margin-top: 20px;
+    
 }

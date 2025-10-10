@@ -1,7 +1,14 @@
+@font-face {
+    src: url("kugile.ttf");
+    font-family: "kugile";
+    
+}
+
 body {
     background: whitesmoke;
     color: whitesmoke;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: kugile;
+    
 }
 
 .ad {

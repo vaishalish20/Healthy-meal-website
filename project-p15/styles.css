@@ -1,0 +1,21 @@
+body {
+    color: white;
+    background-image: url("images/UFO.jpg");
+    background-size: cover;
+    margin: 20px;
+
+    text-align: center;
+
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+}
+
+.btn-1 {
+    padding: 6px 10px;
+    background: white;
+    border: none;
+    font-family: inherit;
+}
+

@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-image: url("images/UFO.jpg");
+    background-image: url("images/UFO.webp");
     background-size: cover;
     margin: 20px;
 
@@ -25,7 +25,7 @@ body {
 }
 
 .text-cont {
-    margin-top: 46px;
+    margin-top: 60px;
     /* border: 2px solid white; */
 }
 

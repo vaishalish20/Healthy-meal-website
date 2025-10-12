@@ -1,9 +1,6 @@
 body {
+    margin: 0px;
     color: white;
-    background-image: url("images/UFO.webp");
-    background-size: cover;
-    margin: 20px;
-
     text-align: center;
 
     font-family: "Oxanium", sans-serif;
@@ -11,6 +8,8 @@ body {
     font-weight: 250px;
     font-style: normal;
     font-size: 18px;
+
+
 }
 
 .btn {
@@ -18,6 +17,8 @@ body {
     background: white;
     border: none;
     font-family: inherit;
+    font-weight: bold;
+    margin: 20px;
 }
 
 .hlgt {
@@ -25,7 +26,7 @@ body {
 }
 
 .text-cont {
-    margin-top: 60px;
+    margin-top: 250px;
     /* border: 2px solid white; */
 }
 
@@ -34,5 +35,13 @@ body {
     /* border: 2px solid white; */
     padding-left: 20px;
     margin-top: 20px;
-    
+}
+
+#hero-cont {
+    background-image: url("images/UFO.webp");
+    background-size: cover;
+}
+
+.term-cnd {
+    color: #fee440;
 }

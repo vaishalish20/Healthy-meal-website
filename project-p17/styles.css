@@ -4,6 +4,8 @@ body {
     font-style: normal;
     background: #f7e9ab;
     color: #807362;
+
+    text-align: center;
     
 }
 
@@ -19,6 +21,44 @@ h1, h2, h3, h4, p {
 
 .profile-sec {
     margin: 20px;
-    text-align: center;
-    
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#bday-age {
+    background: #fdf3da;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+
+}
+
+#bday-date {
+    margin: 0px;
+    background: #fdf3da;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 5px;
+}
+.gift-hint {
+    margin-top: 0px;
+}
+
+.gift-img {
+    margin: 0 auto 0 auto;
+    width: 200px;
+    height: 230px;
+    background-image: url("images/gift-box-1.png");
+    background-size: cover;
+}
+
+

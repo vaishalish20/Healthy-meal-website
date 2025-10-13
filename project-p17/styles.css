@@ -2,11 +2,14 @@ body {
     font-family: "Happy Monkey", system-ui;
     font-weight: 400;
     font-style: normal;
-    background: #f7e9ab;
+    /* background: #f7e9ab; */
+    background: linear-gradient(#fcf5d6, #f3daa6);
     color: #807362;
 
     text-align: center;
-    
+
+
+
 }
 
 h1, h2, h3, h4, p {
@@ -21,7 +24,7 @@ h1, h2, h3, h4, p {
 
 .profile-sec {
     margin: 20px;
-   
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,27 +67,27 @@ h1, h2, h3, h4, p {
 
 #first-gift:hover {
     background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmkzdGs2c2Z4MGJ2a2Q5bzhhdmE2OTJkMzB0YjF6ZXlwOHF3NnBpYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z0EBlrKEyScmc/giphy.gif);
-    background-size: 300px 220px;
+    background-size: 300px 228px;
     background-position: center;
 }
 
 #second-gift:hover {
     background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmcyeGRyZzc5c2kzYXFrb3ZkOW9wMmE5d2JicDJraHltNmN4NDFwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1ZsAcqS7Hth6LA7vD0/giphy.gif);
     background-size: 260px 380px;
-    background-position: center; 
+    background-position: center;
 }
 
 
 #third-gift:hover {
     background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb29iMmZ5MzV5cjZ4NGpmNjg2aTUyemN5d3VycjgwZHI3NmhpdWoyeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4EEI1jRmbQfOXxNEVZ/giphy.gif);
     background-size: 200px 250px;
-    background-position: center; 
+    background-position: center;
 }
 
 #fourth-gift:hover {
     background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3F6MWZlNHZ1OTB1MXg2aW1tajgxb3B1MzNseWlwamIwemVuZ25vbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KHbfOPypfweSHuP0c1/giphy.gif);
     background-size: 210px 230px;
-    background-position: center; 
+    background-position: center;
 }
 
 
@@ -92,4 +95,13 @@ h1, h2, h3, h4, p {
     background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYThrZTV5cDN3OHZodWg3eWViZ29rOHN5OHBoZGYxOTZhMXpoMDZ5dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L0BKzeibXgQSm8tJAi/giphy.gif);
     background-size: 230px 200px;;
     background-position: center;
+}
+
+#footer {
+    font-style: italic
+}
+
+#birthday-link {
+    color: #807362;
+    font-weight: 400;
 }

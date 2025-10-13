@@ -71,7 +71,25 @@ h1, h2, h3, h4, p {
 #second-gift:hover {
     background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmcyeGRyZzc5c2kzYXFrb3ZkOW9wMmE5d2JicDJraHltNmN4NDFwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1ZsAcqS7Hth6LA7vD0/giphy.gif);
     background-size: 260px 380px;
-   
+    background-position: center; 
+}
+
+
+#third-gift:hover {
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExb29iMmZ5MzV5cjZ4NGpmNjg2aTUyemN5d3VycjgwZHI3NmhpdWoyeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4EEI1jRmbQfOXxNEVZ/giphy.gif);
+    background-size: 200px 250px;
+    background-position: center; 
+}
+
+#fourth-gift:hover {
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3F6MWZlNHZ1OTB1MXg2aW1tajgxb3B1MzNseWlwamIwemVuZ25vbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KHbfOPypfweSHuP0c1/giphy.gif);
+    background-size: 210px 230px;
+    background-position: center; 
+}
+
+
+#cheers-gift:hover {
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExYThrZTV5cDN3OHZodWg3eWViZ29rOHN5OHBoZGYxOTZhMXpoMDZ5dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L0BKzeibXgQSm8tJAi/giphy.gif);
+    background-size: 230px 200px;;
     background-position: center;
-    
 }

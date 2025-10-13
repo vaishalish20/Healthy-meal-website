@@ -62,3 +62,16 @@ h1, h2, h3, h4, p {
 }
 
 
+#first-gift:hover {
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmkzdGs2c2Z4MGJ2a2Q5bzhhdmE2OTJkMzB0YjF6ZXlwOHF3NnBpYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z0EBlrKEyScmc/giphy.gif);
+    background-size: 300px 220px;
+    background-position: center;
+}
+
+#second-gift:hover {
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmcyeGRyZzc5c2kzYXFrb3ZkOW9wMmE5d2JicDJraHltNmN4NDFwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1ZsAcqS7Hth6LA7vD0/giphy.gif);
+    background-size: 260px 380px;
+   
+    background-position: center;
+    
+}

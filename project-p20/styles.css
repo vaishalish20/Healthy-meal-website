@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero-section {
+    border: 2px solid red;
+    margin: 16px;
+
+}
+
+.places-section {
+    margin: 0px 16px;
+    border: 2px solid red;
+}
+
+.containers {
+    
+    padding: 90px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: greenyellow;
+
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    border: 1px solid black;
+    background: pink;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100px;
+    max-height: 300px;
+    overflow: auto;
+
+}
+
+.card img {
+    height: 80px;
+    width: 80px;
+    border: 2px solid red;
+    border-radius: 50%;
+}

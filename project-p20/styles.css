@@ -8,46 +8,66 @@ body {
 
 .hero-section {
     border: 2px solid red;
-    margin: 16px;
-
+    margin: 16px 16px 0px 16px;
+    background: palegoldenrod;
+    background-image: url(images/warehouse_main.jpg);
+    background-size: 800px;
+    height: 250px;
 }
 
-.places-section {
+#forgotten-warehouse {
+    margin: 0px;
+    background: #fdf3da;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.main-holder {
     margin: 0px 16px;
     border: 2px solid red;
 }
 
-.containers {
-    
-    padding: 90px;
+.card-holder {
+    padding: 20px;
     border: 2px solid red;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    
     background: greenyellow;
 
-    flex-wrap: wrap;
-    gap: 30px;
+    /* flex-wrap: wrap; */
+    gap: 10px;
 }
 
 .card {
+    width: 200px;
+    height: 300px;
     border: 1px solid black;
     background: pink;
-    padding: 10px 15px;
+    padding: 10px 30px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    align-items: center;
     justify-content: space-between;
-    max-width: 100px;
-    max-height: 300px;
-    overflow: auto;
+    align-items: center;
 
+    gap: 10px;
+    
+    
 }
 
 .card img {
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     border: 2px solid red;
     border-radius: 50%;
+}
+
+.card-heading {
+    /* border: 1px dotted black; */
+    height: 90px;
+}
+
+.card-content {
+    height: 50px;
 }

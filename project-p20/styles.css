@@ -4,37 +4,50 @@ body {
     font-family: "Happy Monkey", system-ui;
     font-weight: 400;
     font-style: normal;
+
+    background: #fcf5d6;
 }
 
 .hero-section {
-    border: 2px solid red;
-    margin: 16px 16px 0px 16px;
-    background: palegoldenrod;
+    /* border: 2px solid red; */
+    margin: 10px 16px 0px 16px;
+    padding: 10px 0px;
+    background: #fdf3da;
     background-image: url(images/warehouse_main.jpg);
-    background-size: 800px;
+    background-size: cover;
+    background-position: center;
     height: 250px;
 }
 
 #forgotten-warehouse {
-    margin: 0px;
-    background: #fdf3da;
-    padding: 5px 10px;
+    margin: 50px 190px;
+    background: #fcf5d6;
+    padding: 5px 0px;
+    border: 1px solid black;
     border-radius: 10px;
+}
+
+#hero-content {
+    margin: 20px;
+    background: #fcf5d6;
+    padding: 1px 0px;
+    border-radius: 10px;
+    border: 1px dotted black;
 }
 
 .main-holder {
     margin: 0px 16px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .card-holder {
     padding: 20px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-around;
     align-items: center;
     
-    background: greenyellow;
+    /* background: #f4d59c; */
 
     /* flex-wrap: wrap; */
     gap: 10px;
@@ -44,7 +57,8 @@ body {
     width: 200px;
     height: 300px;
     border: 1px solid black;
-    background: pink;
+    border-radius: 10px;
+    /* background: #fcf5d6; */
     padding: 10px 30px;
     display: flex;
     flex-direction: column;
@@ -53,14 +67,14 @@ body {
 
     gap: 10px;
     
-    
 }
 
 .card img {
     height: 100px;
     width: 100px;
-    border: 2px solid red;
+    border: 1px solid red;
     border-radius: 50%;
+    background: #ebcd94;
 }
 
 .card-heading {
@@ -70,4 +84,22 @@ body {
 
 .card-content {
     height: 50px;
+}
+
+.visiting-card-section {
+    margin: 0px 16px;
+    padding: 0px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.vc-hero {
+    width: 400px;
+    height: 200px;
+    padding: 0px;
+    border: 1px solid blue;
+
 }

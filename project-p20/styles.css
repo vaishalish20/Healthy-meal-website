@@ -5,7 +5,7 @@ body {
     font-weight: 400;
     font-style: normal;
 
-    background: #fcf5d6;
+    /* background: #fcf5d6; */
 }
 
 .hero-section {
@@ -38,25 +38,34 @@ body {
 .main-holder {
     margin: 0px 16px;
     /* border: 2px solid red; */
+    background: #faf4da;
+}
+
+#palces-heading {
+    /* border: 1px solid black; */
+    margin: 20px 0px;
+    border-top: 3px solid #bf794b;
+    padding: 10px 0px 0px 0px;
 }
 
 .card-holder {
-    padding: 20px;
+    padding: 0px 0px 20px 0px; 
     /* border: 2px solid red; */
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
     
     /* background: #f4d59c; */
-
     /* flex-wrap: wrap; */
     gap: 10px;
 }
 
 .card {
+    margin: 0px;
     width: 200px;
     height: 300px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;
     /* background: #fcf5d6; */
     padding: 10px 30px;
@@ -72,9 +81,10 @@ body {
 .card img {
     height: 100px;
     width: 100px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 50%;
-    background: #ebcd94;
+    /* background: #ebcd94; */
+    background-color: rgba(190, 144, 16, 0.4);
 }
 
 .card-heading {
@@ -89,7 +99,8 @@ body {
 .visiting-card-section {
     margin: 0px 16px;
     padding: 0px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    border-top: 3px solid #bf794b;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,7 +110,20 @@ body {
 .vc-hero {
     width: 400px;
     height: 200px;
-    padding: 0px;
-    border: 1px solid blue;
+    padding: 10px;
+    /* border: 2px solid #f4d59c; */
+    border-bottom: 4px solid #a0896b;
+    
+
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.vc-hero img {
+    width: 170px;
+    height: 170px;
+    /* border: 1px solid blue; */
 
 }

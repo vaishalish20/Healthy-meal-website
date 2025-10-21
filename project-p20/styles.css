@@ -1,6 +1,5 @@
 body {
     text-align: center;
-
     font-family: "Happy Monkey", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -20,6 +19,7 @@ body {
 }
 
 #forgotten-warehouse {
+    
     margin: 50px 190px;
     background: #fcf5d6;
     padding: 5px 0px;

@@ -23,7 +23,7 @@ body {
     margin: 50px 190px;
     background: #fcf5d6;
     padding: 5px 0px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;
 }
 
@@ -32,13 +32,13 @@ body {
     background: #fcf5d6;
     padding: 1px 0px;
     border-radius: 10px;
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
 }
 
 .main-holder {
     margin: 0px 16px;
     /* border: 2px solid red; */
-    background: #faf4da;
+    background: #faf4da80;
 }
 
 #palces-heading {
@@ -62,20 +62,31 @@ body {
 }
 
 .card {
-    margin: 0px;
     width: 200px;
     height: 300px;
     /* border: 1px solid black; */
-    border-radius: 10px;
+    border-radius: 20px;
     /* background: #fcf5d6; */
     padding: 10px 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
 
     gap: 10px;
     
+}
+
+.card h3 {
+    /* border: 1px solid; */
+    /* background: #bf794b; */
+    /* padding: -60px; */
+    margin-bottom: 50px;
+
+}
+
+.card p {
+    margin: 0px 10px;
+    /* border: 1px solid; */
 }
 
 .card img {
@@ -84,16 +95,18 @@ body {
     /* border: 1px solid red; */
     border-radius: 50%;
     /* background: #ebcd94; */
-    background-color: rgba(190, 144, 16, 0.4);
 }
 
 .card-heading {
     /* border: 1px dotted black; */
-    height: 90px;
+    height: 30px;
 }
 
 .card-content {
     height: 50px;
+    width: 220px;
+    margin-top: 20px;
+    /* background: red; */
 }
 
 .visiting-card-section {

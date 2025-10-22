@@ -6,11 +6,19 @@ body {
     font-family: sans-serif;
 }
 
-#Increment-btn {
+button {
     border: none;
     border-radius: 5px;
     width: 100px;
     height: 30px;
     color: white;
+
+}
+
+#Increment-btn {
     background: black;
+}
+
+#save-btn {
+    background: red;
 }

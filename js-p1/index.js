@@ -13,10 +13,22 @@
 // console.log(bounusPoints)
 
 let count = 0
+let countEl = document.getElementById("count-el")
 
 function increment() {
     console.log("The button was clicked!")
 
-    count = count + 1
-    document.getElementById("count-el").innerText = count
+    // count = count + 1
+    count += 1
+    countEl.innerText = count
 }
+
+let saveEle = document.getElementById("save-el")
+
+function save() {
+    console.log(count)
+    let countStr = count + " - "
+    saveEle.innerText += " "+ countStr
+}
+
+save()

@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background-image: url(images/people_bg.jpg);
+    background-position: center;
+    color: black;
+    font-family: sans-serif;
+}
+
+#Increment-btn {
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background: black;
+}

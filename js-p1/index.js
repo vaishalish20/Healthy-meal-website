@@ -20,7 +20,8 @@ function increment() {
 
     // count = count + 1
     count += 1
-    countEl.innerText = count
+    // countEl.innerText = count
+    countEl.textContent = count
 }
 
 let saveEle = document.getElementById("save-el")
@@ -28,7 +29,10 @@ let saveEle = document.getElementById("save-el")
 function save() {
     console.log(count)
     let countStr = count + " - "
-    saveEle.innerText += " "+ countStr
+    // saveEle.innerText += countStr
+    saveEle.textContent += countStr
+    count = 0
+    countEl.textContent = count
 }
 
 save()

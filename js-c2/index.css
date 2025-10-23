@@ -29,7 +29,7 @@ button {
 img {
     width: 400px;
     height: 330px;
-    /* display: block; */
+    display: block;
 }
 
 #error {

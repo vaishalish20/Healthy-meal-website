@@ -43,29 +43,37 @@ body {
 
 .cont-hero {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     gap: 10px;
     border:1px solid black;
+    height: 650px;
 }
 
+h1{
+  border:1px solid blue;
+}
 #hero-text {
     font-family: "Caramel", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 500px;
-    
+    /* font-weight: 400; */
+    /* font-style: normal;*/
+    font-size: 480px; 
+    border:1px solid black;
+    margin: 0;
+
 }
 
 .cont-left {
     border:1px solid black;
     padding: 0px 40px;
+    width:550px;
+  
 }
-
-
 .cont-right {
     border:1px solid black;
     display: flex;
     justify-content: center;
+    align-items: start;
+    
 }
 
 #rice-bowl {

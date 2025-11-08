@@ -87,7 +87,7 @@ body {
     text-align: center;
 }
 
-.btn-el {
+.btn-el {           /* add this*/
     font-family: "Roboto", sans-serif;
     border: none;
     border-radius: 50px;

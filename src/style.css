@@ -58,9 +58,9 @@ body {
 
 
 #hero-text-cont {
-    /* border: 1px solid gold; */
-    /* margin-top: -100px; */
-    /* text-align: center; */
+    border: 1px solid gold;
+    margin-top: -100px;
+    text-align: center;
 }
 #hero-text {
     font-family: "Caramel", cursive;

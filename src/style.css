@@ -1,97 +1,114 @@
 body {
-    background: skyblue;
+    background: #cae9ff;
     margin: 10px;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     font-variation-settings: "wdth" 100;
-
     /* text-align: center; */
 }
 /* following the header section */
 .header-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 400px;
-    height: 50px;
-    padding: 20px;
+    gap: 27vh;
+    height: 5vh;
+    padding: 2vh;
 
 
 }
 
-.header-content,
+/* .header-content,
 .logo,
 .navbar {
     border: 1px solid black;
-}
+} */
 
 .navbar-elements {
     display: flex;
     justify-content: space-evenly;
-    border:1px solid black;
+    /* border:1px solid black; */
     gap: 40px;
     list-style-type: none;
-    padding: 0px 20px;
+    padding: 0px 3vh;
+
+    color: #14213d;
 }
 
 .logo {
-    height: 80px;
-    width: 100px;
+    height: 20vh;
+    width: 20vh;
+    margin-left: 20vh;
 }
+
+.navbar {
+    margin-right: 1vh;
+}
+
 
 /* following is the hero section */
 .cont-hero {
     display: flex;
     justify-content: center;
     /* gap: 10px; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 79vh;
 }
 
 .cont-left {
-    border: 1px solid black;
+    /* border: 1px solid brown; */
     padding: 0px 40px;
     width: 550px;
+    display: flex;
+    flex-direction: column;
 }
 
 
-#hero-text-cont {
-    border: 1px solid gold;
-    margin-top: -100px;
-    text-align: center;
+
+.content-el {
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: -10px;
 }
+
 #hero-text {
     font-family: "Caramel", cursive;
     font-style: normal; 
     font-size: 300px;
     font-weight: 300;
-    border: 1px solid black;
-    padding: 0px 30px;
+    /* border: 1px solid black; */
+    padding: 0px 0px;
+    /* border: 1px solid gold; */
+    text-align: center;
 
+    display: flex;
+    justify-content: center;   
+
+    margin: 0;
+
+    color: #6d72cd;
 }
 
 
+
+
 .cont-right {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: start;
 }
 
 #rice-bowl {
-    border: 1px solid pink;   /* changed the color*/
+    /* border: 1px solid pink;    */
     width: 79vh;
 }
 
-#hero-text-cont {
-    border: 1px solid gold;
-    /* margin-top: -100px; */
-    text-align: center;
-}
 
-.btn-el {           /* add this*/
+
+.btn-el {           
     font-family: "Roboto", sans-serif;
     border: none;
     border-radius: 50px;
@@ -101,4 +118,4 @@ body {
     color: white;
     font-size: 12px;
 }
-/* end */
+

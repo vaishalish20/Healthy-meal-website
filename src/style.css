@@ -48,7 +48,7 @@ body {
     justify-content: center;
     gap: 10px;
     border: 1px solid black;
-    height: 650px;
+    height: 79vh;
 }
 
 #hero-text {
@@ -76,7 +76,7 @@ body {
 
 #rice-bowl {
     border: 1px solid red;
-    width: 600px;
+    width: 79vh;
 }
 
 #hero-text-cont {

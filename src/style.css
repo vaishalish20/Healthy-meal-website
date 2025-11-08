@@ -12,11 +12,13 @@ body {
 /* following the header section */
 .header-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 400px;
     height: 50px;
     padding: 20px;
+
+
 }
 
 .header-content,
@@ -27,8 +29,8 @@ body {
 
 .navbar-elements {
     display: flex;
-    justify-content: space-between;
-    /* border:1px solid black; */
+    justify-content: space-evenly;
+    border:1px solid black;
     gap: 40px;
     list-style-type: none;
     padding: 0px 20px;
@@ -83,3 +85,22 @@ body {
     width: 79vh;
 }
 
+<<<<<<< HEAD
+=======
+#hero-text-cont {
+    border: 1px solid gold;
+    /* margin-top: -100px; */
+    text-align: center;
+}
+
+.btn-el {           /* add this*/
+    font-family: "Roboto", sans-serif;
+    border: none;
+    border-radius: 50px;
+    height: 4vh;
+    width: 20vh;
+    background: #c1121f;
+    color: white;
+    font-size: 12px;
+}
+>>>>>>> 1ee82ba307ca5a405fa5f0fce011fe934a79a112

@@ -81,7 +81,7 @@ body {
 }
 
 #rice-bowl {
-    border: 1px solid red;
+    border: 1px solid pink;   /* changed the color*/
     width: 79vh;
 }
 
